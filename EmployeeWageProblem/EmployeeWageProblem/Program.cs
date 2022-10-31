@@ -1,4 +1,4 @@
-﻿using EmployeeWagesProblem;
+﻿using EmployeeWageProblem;
 using System;
 
 namespace EmployeeWageProblem
@@ -9,7 +9,7 @@ namespace EmployeeWageProblem
         {
             Console.WriteLine("Welcome to employee wage statement");
             EmpWages emp = new EmpWages();
-            emp.WageCal();
+            emp.EmpWage();
 
             emp.Attendance();
         }
